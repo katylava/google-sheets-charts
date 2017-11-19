@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Logged in as {{ plus.displayName }}</p>
+<p>Sheets works? {{ sheetInfo.values | join(', ') }}</p>
+{% endblock %}
